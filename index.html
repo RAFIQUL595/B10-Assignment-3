@@ -38,6 +38,9 @@
             fontFamily: {
               Manrope: "Manrope",
             },
+            backgroundImage: {
+              bg_img: "url('./assets/bg.jpg')",
+            },
           },
         },
       };
@@ -298,11 +301,11 @@
 
       <!-- Latest Portfolio Section -->
       <section class="lg:bg-white">
-        <div class="w-11/12 mx-auto lg:pt-7 ">
+        <div class="w-11/12 mx-auto lg:pt-7">
           <!-- Text Section -->
           <div class="text-center pt-7 lg:pt-0">
             <button
-              class="btn bg-btn_color bg-opacity-40 rounded-3xl text-lg font-bold text-[#494949] mb-3"
+              class="btn bg-btn_color bg-opacity-25 rounded-3xl text-lg font-bold text-[#494949] mb-3"
             >
               <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
             </button>
@@ -318,7 +321,9 @@
           <!-- Card Section -->
           <!-- Card 1-->
           <div class="md:flex gap-5">
-            <div class="lg:w-4/6 md:flex gap-6 border-2 rounded-3xl p-6 bg-white mb-5">
+            <div
+              class="lg:w-4/6 md:flex gap-6 border-2 rounded-3xl p-6 bg-white mb-5"
+            >
               <img class="w-full lg:w-fit mb-2" src="assets/img1.png" alt="" />
               <div class="space-y-3">
                 <h3 class="text-[#494949] text-2xl font-extrabold">
@@ -344,26 +349,100 @@
             <div class="border-2 rounded-3xl p-6 lg:w-[22%] bg-white mb-5">
               <img class="w-full lg:w-fit" src="assets/img3.png" alt="" />
             </div>
-            <div class="md:flex gap-6 lg:w-[50%] p-6 border-2 rounded-3xl bg-white mb-5">
+            <div
+              class="md:flex gap-6 lg:w-[50%] p-6 border-2 rounded-3xl bg-white mb-5"
+            >
               <img class="w-full lg:w-fit mb-2" src="assets/img4.png" alt="" />
               <div class="space-y-3">
-                <h3 class="text-[#494949] font-extrabold text-2xl">Commercial</h3>
-                <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
+                <h3 class="text-[#494949] font-extrabold text-2xl">
+                  Commercial
+                </h3>
+                <p class="text-[#737373] font-medium">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
                 <a class="font-extrabold text-lg mr-2" href="#">View Details</a>
                 <i
-              class="fa-light fa-arrow-up-right text-xl md:text-2xl px-1 bg-btn_color rounded-[50%]"
-            ></i>
+                  class="fa-light fa-arrow-up-right text-xl md:text-2xl px-1 bg-btn_color rounded-[50%]"
+                ></i>
               </div>
             </div>
             <div class="p-6 border-2 rounded-3xl lg:w-[22%] bg-white mb-5">
-              <img class="w-full lg:w-fit" src="assets/img5.png" alt="">
+              <img class="w-full lg:w-fit" src="assets/img5.png" alt="" />
             </div>
           </div>
         </div>
       </section>
 
       <!-- Next Project Section -->
-      <section></section>
+      <section class="bg-bg_img bg-cover bg-no-repeat">
+        <div class="w-11/12 mx-auto lg:p-24">
+          <!-- Text Section -->
+          <div class="text-center pt-7 lg:pt-0">
+            <button
+              class="btn bg-btn_color bg-opacity-25 rounded-3xl text-lg font-bold text-[#494949] mb-3"
+            >
+              <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
+            </button>
+          </div>
+          <div class="text-center space-y-3 mb-7">
+            <h3 class="text-4xl font-bold">Our Latest Portfolio</h3>
+            <p class="text-[#494949] font-medium md:w-3/6 mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+          <!-- Form Section -->
+          <div class="grid justify-items-center gap-5 lg:w-8/12 mx-auto">
+            <!-- From 1 -->
+            <div class="md:flex gap-5">
+              <input
+                class="p-4 rounded-3xl w-96 mb-5 lg:mb-0"
+                type="text"
+                placeholder="Fast Name*"
+              />
+              <input
+                class="p-4 rounded-3xl w-96"
+                type="text"
+                placeholder="Last Name*"
+              />
+            </div>
+            <!-- From 2 -->
+            <div class="md:flex gap-5">
+              <input
+                class="p-4 rounded-3xl w-96 mb-5 lg:mb-0"
+                type="text"
+                placeholder="Phone Number*"
+              />
+              <input
+                class="p-4 rounded-3xl w-96"
+                type="email"
+                placeholder="Email Number*"
+              />
+            </div>
+            <!-- Text Area -->
+            <div class="grid lg:grid-cols-1 w-full">
+              <textarea
+                class="p-4 rounded-3xl h-52"
+                name=""
+                id=""
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+            <div class="w-full">
+              <button
+                class="btn bg-btn_color font-bold mt-3 text-lg w-full rounded-3xl"
+              >
+                View Details
+                <i
+                  class="fa-light fa-arrow-up-right text-xl md:text-2xl px-1 bg-btn_color rounded-[50%]"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer Section -->
